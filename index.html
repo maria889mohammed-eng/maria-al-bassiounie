@@ -1,173 +1,199 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>CodeWorld | Programming Academy</title>
-
+    <meta name="description" content="Maria Al Basyouni - Programming, Networks and Telecommunications Portfolio">
+    <title>CodeWorld | Maria Al Basyouni</title>
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header class="header">
-    <a href="#" class="logo">Code<span>World.</span></a>
-
     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#languages">Languages</a>
-        <a href="#tutorials">Tutorials</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <a href="#home" class="logo">Code<span>World</span></a>
 
-    <button id="themeBtn" class="theme-btn">☀</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeBtn" aria-label="Change theme">☀</button>
+    </nav>
 </header>
 
-<section class="hero" id="home">
+<main>
 
-    <div class="hero-content">
-        <p class="welcome">WELCOME TO CODEWORLD</p>
-
-        <h1>
-            Discover the World of
-            <span>Programming</span>
-        </h1>
-
-        <p class="description">
-            Explore programming languages, learn coding,
-            develop your skills and build amazing projects.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="#languages" class="btn primary">Explore Languages →</a>
-            <a href="#about" class="btn secondary">About Me</a>
-        </div>
-    </div>
-
-    <div class="hero-image">
-        <img src="images/profile.jpg" alt="Maria Profile">
-    </div>
-
-</section>
-
-<section class="languages section" id="languages">
-
-    <div class="section-title">
-        <p>START LEARNING</p>
-        <h2>Programming Languages</h2>
-        <span>Explore the most popular programming languages.</span>
-    </div>
-
-    <div class="language-grid">
-
-        <div class="language-card">
-            <img src="images/python.svg" alt="Python">
-            <h3>Python</h3>
-            <p>Powerful language for AI, data science and automation.</p>
-            <a href="#tutorials">Learn More →</a>
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY DIGITAL WORLD</p>
+            <h1>Hello, I'm <span>Maria Al Basyouni</span></h1>
+            <h2>Programming & Telecommunications</h2>
+            <p>
+                Exploring the world of technology, programming,
+                computer networks and telecommunications.
+                Learning, creating and building new ideas.
+            </p>
+            <a href="#about" class="btn">Discover More</a>
         </div>
 
-        <div class="language-card">
-            <img src="images/java.svg" alt="Java">
-            <h3>Java</h3>
-            <p>Popular language for applications and software development.</p>
-            <a href="#tutorials">Learn More →</a>
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="Maria Al Basyouni">
         </div>
+    </section>
 
-        <div class="language-card">
-            <img src="images/javascript.svg" alt="JavaScript">
-            <h3>JavaScript</h3>
-            <p>Creates interactive and dynamic websites.</p>
-            <a href="#tutorials">Learn More →</a>
-        </div>
-
-        <div class="language-card">
-            <img src="images/html5.svg" alt="HTML">
-            <h3>HTML5</h3>
-            <p>The standard language for structuring web pages.</p>
-            <a href="#tutorials">Learn More →</a>
-        </div>
-
-        <div class="language-card">
-            <img src="images/css3.svg" alt="CSS">
-            <h3>CSS3</h3>
-            <p>Used to style and design beautiful websites.</p>
-            <a href="#tutorials">Learn More →</a>
-        </div>
-
-    </div>
-</section>
-
-<section class="tutorials section" id="tutorials">
-    <div class="section-title">
-        <p>IMPROVE YOUR SKILLS</p>
-        <h2>Learn Programming</h2>
-    </div>
-
-    <div class="info-box">
-        <h3>Learn Through Practice</h3>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>About <span>Me</span></h2>
         <p>
-            Programming is not only about learning syntax.
-            It is about solving problems, building projects
-            and developing creative ideas.
+            I am a Master's student in Networks and Telecommunications
+            at Frères Mentouri University Constantine 1.
+            I am passionate about programming, computer networks
+            and modern communication technologies.
         </p>
-    </div>
-</section>
-
-<section class="projects section" id="projects">
-    <div class="section-title">
-        <p>BUILD SOMETHING AMAZING</p>
-        <h2>Programming Projects</h2>
-    </div>
-
-    <div class="info-box">
-        <h3>Explore Practical Projects</h3>
         <p>
-            Discover programming ideas and practical
-            examples using different technologies.
+            My goal is to develop my technical skills, explore
+            innovative technologies and create useful projects
+            that combine programming and telecommunications.
         </p>
-    </div>
-</section>
+    </section>
 
-<section class="about section" id="about">
-    <div class="section-title">
-        <p>GET TO KNOW ME</p>
-        <h2>About Me</h2>
-    </div>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2>My <span>Skills</span></h2>
 
-    <div class="info-box">
-        <h3>Maria Al Basyouni</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="images/html5.svg" alt="HTML5">
+                <h3>HTML5</h3>
+                <p>Building structured web pages.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/css3.svg" alt="CSS3">
+                <h3>CSS3</h3>
+                <p>Designing modern and responsive websites.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/javascript.svg" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Adding interaction to web pages.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/python.svg" alt="Python">
+                <h3>Python</h3>
+                <p>Learning programming and problem solving.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/java.svg" alt="Java">
+                <h3>Java</h3>
+                <p>Exploring object-oriented programming.</p>
+            </div>
+
+            <div class="card">
+                <h3>Computer Networks</h3>
+                <p>Studying network protocols and communication systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TUTORIALS -->
+    <section id="tutorials" class="section">
+        <h2>Learning <span>Tutorials</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML for Beginners</h3>
+                <p>Learn the structure of web pages and HTML elements.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                   target="_blank" rel="noopener">Start Learning →</a>
+            </div>
+
+            <div class="card">
+                <h3>CSS Fundamentals</h3>
+                <p>Discover how to style websites and create layouts.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                   target="_blank" rel="noopener">Start Learning →</a>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript Basics</h3>
+                <p>Understand variables, functions and interactive pages.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                   target="_blank" rel="noopener">Start Learning →</a>
+            </div>
+
+            <div class="card">
+                <h3>Python Programming</h3>
+                <p>Explore Python syntax and programming concepts.</p>
+                <a href="https://docs.python.org/3/tutorial/"
+                   target="_blank" rel="noopener">Start Learning →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>My <span>Projects</span></h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>CodeWorld Website</h3>
+                <p>
+                    A personal educational website dedicated to
+                    programming and technology.
+                </p>
+                <span>HTML · CSS · JavaScript</span>
+            </div>
+
+            <div class="card">
+                <h3>Line Following Robot</h3>
+                <p>
+                    A robotics project idea involving a robot that
+                    follows a black line and stops when an obstacle
+                    is detected.
+                </p>
+                <span>Robotics · Sensors</span>
+            </div>
+
+            <div class="card">
+                <h3>Networks & Telecommunications</h3>
+                <p>
+                    Academic learning and practical work related
+                    to network protocols and communication systems.
+                </p>
+                <span>Networking · Telecommunications</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact <span>Me</span></h2>
         <p>
-            Welcome to my personal programming website.
-            I am interested in telecommunications,
-            technology and programming.
-            This platform shares knowledge about
-            programming languages and web development.
+            Thank you for visiting my website.
+            You can explore my work and follow my learning journey.
         </p>
-    </div>
-</section>
+        <a class="btn"
+           href="https://github.com/maria889mohammed-eng"
+           target="_blank" rel="noopener">Visit My GitHub</a>
+    </section>
 
-<section class="contact section" id="contact">
-    <div class="section-title">
-        <p>LET'S CONNECT</p>
-        <h2>Contact Me</h2>
-    </div>
+</main>
 
-    <div class="info-box">
-        <p>Connect with me through GitHub.</p>
-        <a href="https://github.com/maria889mohammed-eng"
-           target="_blank">Visit My GitHub →</a>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 CodeWorld. Created by Maria Al Basyouni.</p>
+<footer class="footer">
+    <p>© 2026 CodeWorld | Created by Maria Al Basyouni</p>
+    <p>Learning Today, Building Tomorrow.</p>
 </footer>
 
 <script src="js/script.js"></script>
