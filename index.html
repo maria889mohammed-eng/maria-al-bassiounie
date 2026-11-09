@@ -3,41 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f4f8;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .container {
-            background: white;
-            max-width: 650px;
-            margin: auto;
-            padding: 35px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px #cccccc;
-        }
-        h1 { color: #2563a6; }
-        p { color: #444; line-height: 1.8; }
-        a {
-            color: #2563a6;
-            text-decoration: none;
-        }
-    </style>
+
+    <title>CodeWorld | Programming Academy</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <h2>Maria Al Basyouni</h2>
-        <p>Master's Student in Telecommunications Networks</p>
-        <p>Welcome to my personal website!</p>
-        <h3>My Projects</h3>
-        <p>Telecommunications Networks</p>
-        <p>BCCH Research</p>
-        <p>GMSK Modulation</p>
-        <p>Contact: maria@example.com</p>
+
+<header class="header">
+    <a href="#" class="logo">Code<span>World.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#languages">Languages</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeBtn" class="theme-btn">☀</button>
+</header>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO CODEWORLD</p>
+
+        <h1>
+            Discover the World of
+            <span>Programming</span>
+        </h1>
+
+        <p class="description">
+            Explore programming languages, learn coding,
+            develop your skills and build amazing projects.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#languages" class="btn primary">Explore Languages →</a>
+            <a href="#about" class="btn secondary">About Me</a>
+        </div>
     </div>
+
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Maria Profile">
+    </div>
+
+</section>
+
+<section class="languages section" id="languages">
+
+    <div class="section-title">
+        <p>START LEARNING</p>
+        <h2>Programming Languages</h2>
+        <span>Explore the most popular programming languages.</span>
+    </div>
+
+    <div class="language-grid">
+
+        <div class="language-card">
+            <img src="images/python.svg" alt="Python">
+            <h3>Python</h3>
+            <p>Powerful language for AI, data science and automation.</p>
+            <a href="#tutorials">Learn More →</a>
+        </div>
+
+        <div class="language-card">
+            <img src="images/java.svg" alt="Java">
+            <h3>Java</h3>
+            <p>Popular language for applications and software development.</p>
+            <a href="#tutorials">Learn More →</a>
+        </div>
+
+        <div class="language-card">
+            <img src="images/javascript.svg" alt="JavaScript">
+            <h3>JavaScript</h3>
+            <p>Creates interactive and dynamic websites.</p>
+            <a href="#tutorials">Learn More →</a>
+        </div>
+
+        <div class="language-card">
+            <img src="images/html5.svg" alt="HTML">
+            <h3>HTML5</h3>
+            <p>The standard language for structuring web pages.</p>
+            <a href="#tutorials">Learn More →</a>
+        </div>
+
+        <div class="language-card">
+            <img src="images/css3.svg" alt="CSS">
+            <h3>CSS3</h3>
+            <p>Used to style and design beautiful websites.</p>
+            <a href="#tutorials">Learn More →</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="tutorials section" id="tutorials">
+    <div class="section-title">
+        <p>IMPROVE YOUR SKILLS</p>
+        <h2>Learn Programming</h2>
+    </div>
+
+    <div class="info-box">
+        <h3>Learn Through Practice</h3>
+        <p>
+            Programming is not only about learning syntax.
+            It is about solving problems, building projects
+            and developing creative ideas.
+        </p>
+    </div>
+</section>
+
+<section class="projects section" id="projects">
+    <div class="section-title">
+        <p>BUILD SOMETHING AMAZING</p>
+        <h2>Programming Projects</h2>
+    </div>
+
+    <div class="info-box">
+        <h3>Explore Practical Projects</h3>
+        <p>
+            Discover programming ideas and practical
+            examples using different technologies.
+        </p>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <div class="section-title">
+        <p>GET TO KNOW ME</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="info-box">
+        <h3>Maria Al Basyouni</h3>
+        <p>
+            Welcome to my personal programming website.
+            I am interested in telecommunications,
+            technology and programming.
+            This platform shares knowledge about
+            programming languages and web development.
+        </p>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="section-title">
+        <p>LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="info-box">
+        <p>Connect with me through GitHub.</p>
+        <a href="https://github.com/maria889mohammed-eng"
+           target="_blank">Visit My GitHub →</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 CodeWorld. Created by Maria Al Basyouni.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
